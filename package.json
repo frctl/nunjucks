@@ -13,8 +13,10 @@
     "url": "https://github.com/frctl/nunjucks/issues"
   },
   "homepage": "https://github.com/frctl/nunjucks",
+  "peerDependencies": {
+    "@frctl/fractal": ">= 1.1.0-alpha.0 < 2"
+  },
   "dependencies": {
-    "@frctl/fractal": "^1.1.0",
     "bluebird": "^3.3.4",
     "lodash": "^4.0.0",
     "nunjucks": "^2.4.2"
