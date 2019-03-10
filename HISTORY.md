@@ -1,9 +1,5 @@
 # History
 
-## 1.0.4
-
-- [CHORE] Update Nunjucks version 2.4.2 -> 3.1.7.
-
 ## 1.0.3
 
 - [FIX] Add fix for context data refs issue in nested components.
