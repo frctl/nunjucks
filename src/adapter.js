@@ -87,9 +87,7 @@ class NunjucksAdapter extends Adapter {
          * Instantiate the Nunjucks environment instance.
          */
 
-        let nj = Promise.promisifyAll(new nunjucks.Environment(loaders, {
-            autoescape: false
-        }));
+        let nj = Promise.promisifyAll(new nunjucks.Environment(loaders));
 
         this._engine = nj;
     }
