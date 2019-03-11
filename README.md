@@ -24,6 +24,9 @@ If you want to register custom [filters](https://mozilla.github.io/nunjucks/api.
 ```javascript
 
 const nunj = require('@frctl/nunjucks')({
+    env: {
+      // Nunjucks environment opts: https://mozilla.github.io/nunjucks/api.html#configure
+    },
     filters: {
         // filter-name: function filterFunc(){}
     },
